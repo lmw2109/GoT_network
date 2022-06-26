@@ -1,0 +1,163 @@
+,Character,Character_nickname,Character_firstname
+0,Eddard Stark,Ned,Eddard
+1,Robert Baratheon,NaN,Robert
+2,Jaime Lannister,NaN,Jaime
+3,Catelyn Stark,NaN,Catelyn
+4,Cersei Lannister,NaN,Cersei
+5,Daenerys Targaryen,NaN,Daenerys
+6,Jorah Mormont,NaN,Jorah
+7,Viserys Targaryen,NaN,Viserys
+8,Jon Snow,NaN,Jon
+9,Robb Stark,NaN,Robb
+10,Sansa Stark,NaN,Sansa
+11,Arya Stark,NaN,Arya
+12,Theon Greyjoy,NaN,Theon
+13,Bran Stark,NaN,Bran
+14,Joffrey Baratheon,NaN,Joffrey
+15,Sandor Clegane,The Hound,Sandor
+16,Tyrion Lannister,NaN,Tyrion
+17,Khal Drogo,NaN,NaN
+18,Petyr Baelish,Littlefinger,Petyr
+19,Davos Seaworth,NaN,Davos
+20,Samwell Tarly,NaN,Samwell
+21,Stannis Baratheon,NaN,Stannis
+22,Melisandre,NaN,Melisandre
+23,Jeor Mormont,NaN,Jeor
+24,Bronn,NaN,Bronn
+25,Varys,NaN,Varys
+26,Shae,NaN,Shae
+27,Margaery Tyrell,NaN,Margaery
+28,Tywin Lannister,NaN,Tywin
+29,Talisa Maegyr,NaN,Talisa
+30,Ygritte,NaN,Ygritte
+31,Gendry,NaN,Gendry
+32,Tormund Giantsbane,NaN,Tormund
+33,Brienne of Tarth,NaN,Brienne
+34,Ramsay Bolton,NaN,Ramsay
+35,Gilly,NaN,Gilly
+36,Daario Naharis,NaN,Daario
+37,Missandei,NaN,Missandei
+38,Tommen Baratheon,NaN,Tommen
+39,Ellaria Sand,NaN,Ellaria
+40,Jaqen H'ghar,NaN,Jaqen
+41,Roose Bolton,NaN,Roose
+42,High Sparrow,NaN,NaN
+43,Grey Worm,NaN,Grey
+44,Maester Luwin,NaN,Maester
+45,Jory Cassel,NaN,Jory
+46,Rodrik Cassel,NaN,Rodrik
+47,Benjen Stark,NaN,Benjen
+48,Qotho,NaN,Qotho
+49,Ros,NaN,Ros
+50,Septa Mordane,NaN,Septa
+51,Rickon Stark,NaN,Rickon
+52,Myrcella Baratheon,NaN,Myrcella
+53,Hodor,NaN,Hodor
+54,Doreah,NaN,Doreah
+55,Irri,NaN,Irri
+56,Ilyn Payne,NaN,Ilyn
+57,Rast,NaN,Rast
+58,Alliser Thorne,NaN,Alliser
+59,Barristan Selmy,NaN,Barristan
+60,Yoren,NaN,Yoren
+61,Grand Maester Pycelle,NaN,Maester Pycelle
+62,Renly Baratheon,NaN,Renly
+63,Maester Aemon,NaN,Maester Aemon
+64,Syrio Forel,NaN,Syrio
+65,Grenn,NaN,Grenn
+66,Pypar,NaN,Pypar
+67,Rakharo,NaN,Rakharo
+68,Lancel Lannister,NaN,Lancel
+69,Janos Slynt,NaN,Janos
+70,Marillion,NaN,Marillion
+71,Lysa Arryn,NaN,Lysa
+72,Robin Arryn,NaN,Robin
+73,Osha,NaN,Osha
+74,Greatjon Umber,NaN,Greatjon
+75,Mirri Maz Duur,NaN,Mirri
+76,Kevan Lannister,NaN,Kevan
+77,Craster,NaN,Craster
+78,Eddison Tollett,NaN,Eddison
+79,Hot Pie,NaN,Hot
+80,Lommy Greenhands,NaN,Lommy
+81,Kovarro,NaN,Kovarro
+82,Matthos Seaworth,NaN,Matthos
+83,Dontos Hollard,NaN,Dontos
+84,Alton Lannister,NaN,Alton
+85,Meryn Trant,NaN,Meryn
+86,Daisy,NaN,Daisy
+87,Rorge,NaN,Rorge
+88,Yara Greyjoy,NaN,Yara
+89,Biter,NaN,Biter
+90,Podrick Payne,NaN,Podrick
+91,Loras Tyrell,NaN,Loras
+92,Amory Lorch,NaN,Amory
+93,Gregor Clegane,The Mountain,Gregor
+94,Spice King,NaN,Spice
+95,Xaro Xhoan Daxos,NaN,Xaro
+96,Pyat Pree,NaN,Pyat
+97,Dagmer Cleftjaw,NaN,Dagmer
+98,Black Lorren,NaN,Black
+99,Qhorin Halfhand,NaN,Qhorin
+100,Silk King,NaN,Silk
+101,Mance Rayder,NaN,Mance
+102,Qyburn,NaN,Qyburn
+103,Rickard Karstark,NaN,Rickard
+104,Kraznys mo Nakloz,NaN,Kraznys
+105,Olenna Tyrell,NaN,Olenna
+106,Orell,NaN,Orell
+107,Thoros of Myr,NaN,Thoros
+108,Locke,NaN,Locke
+109,Jojen Reed,NaN,Jojen
+110,Meera Reed,NaN,Meera
+111,Anguy,NaN,Anguy
+112,Brynden Tully,NaN,Brynden
+113,Edmure Tully,NaN,Edmure
+114,Little Sam,NaN,NaN
+115,Beric Dondarrion,NaN,Beric
+116,Steelshanks Walton,NaN,Steelshanks
+117,Oberyn Martell,NaN,Oberyn
+118,Styr,NaN,Styr
+119,Thenn Warg,NaN,Thenn
+120,Othell Yarwyck,NaN,Othell
+121,Selyse Florent,NaN,Selyse
+122,Mace Tyrell,NaN,Mace
+123,Shireen Baratheon,NaN,Shireen
+124,High Septon,NaN,High
+125,Olly,NaN,Olly
+126,Hizdahr zo Loraq,NaN,Hizdahr
+127,Olyvar,NaN,Olyvar
+128,Bowen Marsh,NaN,Bowen
+129,Doran Martell,NaN,Doran
+130,Areo Hotah,NaN,Areo
+131,Trystane Martell,NaN,Trystane
+132,The Waif,NaN,NaN
+133,Myranda,NaN,Myranda
+134,Walda Bolton,NaN,Walda
+135,Obara Sand,NaN,Obara
+136,Tyene Sand,NaN,Tyene
+137,Nymeria Sand,NaN,Nymeria
+138,Septa Unella,NaN,Septa
+139,Khal Moro,NaN,NaN
+140,Qhono,NaN,Qhono
+141,Three-Eyed Raven,NaN,Three-Eyed
+142,Wun Weg Wun Dar Wun,NaN,Wun
+143,Leaf,NaN,Leaf
+144,Harald Karstark,NaN,Harald
+145,Izembaro,NaN,Izembaro
+146,Lady Crane,NaN,Lady
+147,Bobono,NaN,Bobono
+148,Clarenzo,NaN,Clarenzo
+149,Black Walder Rivers,NaN,Black
+150,Lothar Frey,NaN,Lothar
+151,Lyanna Mormont,NaN,Lyanna
+152,Archmaester Ebrose,NaN,Archmaester
+153,Euron Greyjoy,NaN,Euron
+154,Robett Glover,NaN,Robett
+155,Yohn Royce,NaN,Yohn
+156,Maester Wolkan,NaN,Maester
+157,Randyll Tarly,NaN,Randyll
+158,Dickon Tarly,NaN,Dickon
+159,Harrag,NaN,Harrag
+160,Night King,NaN,Night
+161,Alys Karstark,NaN,Alys
