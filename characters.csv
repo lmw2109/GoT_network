@@ -16,7 +16,7 @@
 14,Joffrey Baratheon,NaN,Joffrey
 15,Sandor Clegane,The Hound,Sandor
 16,Tyrion Lannister,NaN,Tyrion
-17,Khal Drogo,NaN,NaN
+17,Khal Drogo,NaN,Drogo
 18,Petyr Baelish,Littlefinger,Petyr
 19,Davos Seaworth,NaN,Davos
 20,Samwell Tarly,NaN,Samwell
@@ -41,7 +41,7 @@
 39,Ellaria Sand,NaN,Ellaria
 40,Jaqen H'ghar,NaN,Jaqen
 41,Roose Bolton,NaN,Roose
-42,High Sparrow,NaN,NaN
+42,High Sparrow,NaN,High Sparrow
 43,Grey Worm,NaN,Grey
 44,Maester Luwin,NaN,Maester Luwin
 45,Jory Cassel,NaN,Jory
@@ -113,7 +113,7 @@
 111,Anguy,NaN,Anguy
 112,Brynden Tully,NaN,Brynden
 113,Edmure Tully,NaN,Edmure
-114,Little Sam,NaN,NaN
+114,Little Sam,NaN,Little Sam
 115,Beric Dondarrion,NaN,Beric
 116,Steelshanks Walton,NaN,Steelshanks
 117,Oberyn Martell,NaN,Oberyn
@@ -131,14 +131,14 @@
 129,Doran Martell,NaN,Doran
 130,Areo Hotah,NaN,Areo
 131,Trystane Martell,NaN,Trystane
-132,The Waif,NaN,NaN
+132,The Waif,NaN,The Waif
 133,Myranda,NaN,Myranda
 134,Walda Bolton,NaN,Walda
 135,Obara Sand,NaN,Obara
 136,Tyene Sand,NaN,Tyene
 137,Nymeria Sand,NaN,Nymeria
 138,Septa Unella,NaN,Septa
-139,Khal Moro,NaN,NaN
+139,Khal Moro,NaN,Moro
 140,Qhono,NaN,Qhono
 141,Three-Eyed Raven,NaN,Three-Eyed
 142,Wun Weg Wun Dar Wun,NaN,Wun
@@ -155,9 +155,9 @@
 153,Euron Greyjoy,NaN,Euron
 154,Robett Glover,NaN,Robett
 155,Yohn Royce,NaN,Yohn
-156,Maester Wolkan,NaN,Maester
+156,Maester Wolkan,NaN,Maester Wolkan
 157,Randyll Tarly,NaN,Randyll
 158,Dickon Tarly,NaN,Dickon
 159,Harrag,NaN,Harrag
-160,Night King,NaN,Night
+160,Night King,NaN,Night King
 161,Alys Karstark,NaN,Alys
