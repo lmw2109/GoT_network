@@ -1,0 +1,251 @@
+,source,target,value
+0,Benjen Stark,Eddard Stark,1
+1,Benjen Stark,Lyanna Mormont,2
+2,Eddard Stark,Lyanna Mormont,6
+3,Eddard Stark,Hodor,2
+4,Benjen Stark,Hodor,4
+5,Hodor,Meera Reed,4
+6,Hodor,Three-Eyed Raven,2
+7,Bran Stark,Three-Eyed Raven,2
+8,Bran Stark,Davos Seaworth,4
+9,Cersei Lannister,Davos Seaworth,2
+10,Cersei Lannister,Jaime Lannister,2
+11,Jaime Lannister,Trystane Martell,2
+12,Margaery Tyrell,Trystane Martell,2
+13,Margaery Tyrell,Tommen Baratheon,10
+14,High Sparrow,Tommen Baratheon,5
+15,Daenerys Targaryen,High Sparrow,2
+16,Daenerys Targaryen,Missandei,5
+17,Missandei,Sansa Stark,2
+18,Eddard Stark,Sansa Stark,4
+19,Eddard Stark,Jon Snow,7
+20,Jon Snow,Walda Bolton,2
+21,Roose Bolton,Walda Bolton,2
+22,Maester Wolkan,Roose Bolton,3
+23,Maester Wolkan,Walda Bolton,2
+24,Ramsay Bolton,Walda Bolton,2
+25,Jon Snow,Ramsay Bolton,22
+26,Bran Stark,Jon Snow,5
+27,Bran Stark,Rickon Stark,11
+28,Rickon Stark,Rodrik Cassel,2
+29,Rodrik Cassel,Theon Greyjoy,2
+30,Brienne of Tarth,Sansa Stark,5
+31,Brienne of Tarth,Ramsay Bolton,3
+32,Eddard Stark,Ramsay Bolton,8
+33,Ramsay Bolton,Sansa Stark,10
+34,Brienne of Tarth,Brynden Tully,2
+35,Brynden Tully,Lady Crane,2
+36,Cersei Lannister,Lady Crane,2
+37,Cersei Lannister,Joffrey Baratheon,2
+38,Eddard Stark,Joffrey Baratheon,4
+39,Joffrey Baratheon,Sansa Stark,7
+40,Sansa Stark,Tywin Lannister,3
+41,Lady Crane,Tywin Lannister,2
+42,Bobono,Lady Crane,6
+43,Lady Crane,Yara Greyjoy,2
+44,Theon Greyjoy,Yara Greyjoy,4
+45,Euron Greyjoy,Theon Greyjoy,6
+46,Daenerys Targaryen,Yara Greyjoy,2
+47,Daenerys Targaryen,Euron Greyjoy,2
+48,Euron Greyjoy,Tyrion Lannister,6
+49,Jorah Mormont,Tyrion Lannister,2
+50,Daenerys Targaryen,Jorah Mormont,2
+51,Daenerys Targaryen,Stannis Baratheon,4
+52,Stannis Baratheon,Varys,2
+53,Night King,Varys,2
+54,Hodor,Night King,10
+55,Hodor,Ramsay Bolton,2
+56,Ramsay Bolton,Rickon Stark,18
+57,Davos Seaworth,Rickon Stark,4
+58,Davos Seaworth,Jon Snow,12
+59,Ramsay Bolton,Roose Bolton,5
+60,Davos Seaworth,Stannis Baratheon,13
+61,Jon Snow,Stannis Baratheon,10
+62,Stannis Baratheon,Tormund Giantsbane,3
+63,Sansa Stark,Tormund Giantsbane,2
+64,Hodor,Sansa Stark,2
+65,Bran Stark,Night King,8
+66,Bran Stark,Hodor,22
+67,Olly,Stannis Baratheon,1
+68,Little Sam,Stannis Baratheon,2
+69,Jon Snow,Little Sam,4
+70,Jon Snow,Maester Aemon,5
+71,Little Sam,Maester Aemon,2
+72,Jon Snow,Meera Reed,2
+73,Khal Drogo,Meera Reed,2
+74,Daenerys Targaryen,Khal Drogo,6
+75,Khal Drogo,Kraznys mo Nakloz,2
+76,Kraznys mo Nakloz,Varys,2
+77,Gregor Clegane,Varys,6
+78,High Sparrow,Varys,2
+79,Gregor Clegane,High Sparrow,5
+80,Qyburn,Varys,3
+81,Gregor Clegane,Qyburn,2
+82,Gregor Clegane,Margaery Tyrell,2
+83,Grand Maester Pycelle,Margaery Tyrell,2
+84,Grand Maester Pycelle,Robert Baratheon,2
+85,Myrcella Baratheon,Robert Baratheon,2
+86,Cersei Lannister,Myrcella Baratheon,2
+87,Arya Stark,Cersei Lannister,4
+88,Arya Stark,Eddard Stark,4
+89,Catelyn Stark,Eddard Stark,6
+90,Catelyn Stark,Sansa Stark,10
+91,Jon Snow,Sansa Stark,6
+92,Rickon Stark,Sandor Clegane,2
+93,Arya Stark,Sandor Clegane,2
+94,Cersei Lannister,Gregor Clegane,3
+95,Gregor Clegane,Jon Snow,2
+96,Jon Snow,Robb Stark,7
+97,Rickon Stark,Robb Stark,2
+98,Alliser Thorne,Rickon Stark,2
+99,Loras Tyrell,Renly Baratheon,3
+100,Cersei Lannister,Loras Tyrell,12
+101,Cersei Lannister,Tommen Baratheon,5
+102,High Sparrow,Loras Tyrell,14
+103,Bronn,Gregor Clegane,2
+104,Bronn,Edmure Tully,4
+105,Edmure Tully,Robb Stark,4
+106,Jeor Mormont,Robb Stark,2
+107,Jeor Mormont,Maester Aemon,2
+108,Jon Snow,Shireen Baratheon,4
+109,Jon Snow,Night King,3
+110,Night King,Petyr Baelish,2
+111,Jon Snow,Petyr Baelish,2
+112,Jon Snow,Olenna Tyrell,2
+113,Obara Sand,Olenna Tyrell,2
+114,Cersei Lannister,Obara Sand,2
+115,Cersei Lannister,Daenerys Targaryen,2
+116,Daario Naharis,Daenerys Targaryen,2
+117,Daario Naharis,Tyrion Lannister,2
+118,Black Walder Rivers,Tyrion Lannister,2
+119,Black Walder Rivers,Lothar Frey,5
+120,Arya Stark,Black Walder Rivers,2
+121,Benjen Stark,Catelyn Stark,2
+122,Benjen Stark,Three-Eyed Raven,4
+123,Eddard Stark,Three-Eyed Raven,2
+124,Eddard Stark,Robert Baratheon,5
+125,Cersei Lannister,Jon Snow,2
+126,Jon Snow,Othell Yarwyck,2
+127,Bowen Marsh,Othell Yarwyck,3
+128,Bowen Marsh,Jon Snow,2
+129,Jon Snow,Myranda,2
+130,Myranda,Stannis Baratheon,2
+131,Sansa Stark,Stannis Baratheon,2
+132,Myrcella Baratheon,Sansa Stark,2
+133,Myrcella Baratheon,Septa Mordane,2
+134,Loras Tyrell,Septa Mordane,4
+135,Loras Tyrell,Oberyn Martell,2
+136,Doran Martell,Oberyn Martell,2
+137,Doran Martell,Myrcella Baratheon,2
+138,Myrcella Baratheon,Oberyn Martell,2
+139,Oberyn Martell,Trystane Martell,2
+140,Daenerys Targaryen,Trystane Martell,2
+141,Daenerys Targaryen,Khal Moro,6
+142,Khal Drogo,Khal Moro,2
+143,Davos Seaworth,Khal Drogo,2
+144,Alliser Thorne,Davos Seaworth,2
+145,Sandor Clegane,Septa Mordane,2
+146,High Sparrow,Septa Mordane,2
+147,Loras Tyrell,Mance Rayder,2
+148,Mance Rayder,Night King,5
+149,High Sparrow,Mance Rayder,2
+150,Cersei Lannister,High Sparrow,5
+151,High Sparrow,Lothar Frey,2
+152,Jaime Lannister,Lothar Frey,2
+153,Edmure Tully,Jaime Lannister,4
+154,Jaime Lannister,Lyanna Mormont,2
+155,Lyanna Mormont,Robb Stark,4
+156,Lyanna Mormont,Stannis Baratheon,2
+157,Robb Stark,Stannis Baratheon,2
+158,Robb Stark,Sansa Stark,4
+159,Jeor Mormont,Jon Snow,3
+160,Jeor Mormont,Night King,2
+161,Night King,Sansa Stark,2
+162,Arya Stark,Sansa Stark,5
+163,Arya Stark,Tommen Baratheon,2
+164,Edmure Tully,Tommen Baratheon,2
+165,Edmure Tully,Roose Bolton,2
+166,Robb Stark,Roose Bolton,2
+167,Euron Greyjoy,Robb Stark,2
+168,Stannis Baratheon,Theon Greyjoy,2
+169,Daenerys Targaryen,Sansa Stark,3
+170,Daenerys Targaryen,Varys,2
+171,High Septon,Varys,2
+172,High Septon,Lancel Lannister,4
+173,High Septon,Jaime Lannister,2
+174,Brienne of Tarth,Jaime Lannister,7
+175,Brienne of Tarth,Podrick Payne,2
+176,Podrick Payne,Sansa Stark,2
+177,Jaime Lannister,Robb Stark,2
+178,Catelyn Stark,Jaime Lannister,3
+179,Jaime Lannister,Sansa Stark,4
+180,Cersei Lannister,Sansa Stark,2
+181,High Septon,Loras Tyrell,3
+182,Cersei Lannister,High Septon,2
+183,Daenerys Targaryen,Loras Tyrell,2
+184,Edmure Tully,Missandei,2
+185,Catelyn Stark,Edmure Tully,2
+186,Catelyn Stark,Cersei Lannister,3
+187,Cersei Lannister,Edmure Tully,3
+188,Edmure Tully,Sansa Stark,2
+189,Beric Dondarrion,Sansa Stark,2
+190,Beric Dondarrion,Lady Crane,2
+191,Arya Stark,Lady Crane,2
+192,Jaime Lannister,Kraznys mo Nakloz,2
+193,Daenerys Targaryen,Kraznys mo Nakloz,2
+194,Eddard Stark,Rickon Stark,2
+195,Ramsay Bolton,Stannis Baratheon,2
+196,Mance Rayder,Stannis Baratheon,3
+197,Jon Snow,Mance Rayder,2
+198,Euron Greyjoy,Jon Snow,2
+199,Euron Greyjoy,Tormund Giantsbane,2
+200,Jon Snow,Tormund Giantsbane,2
+201,Little Sam,Meera Reed,1
+202,Gilly,Little Sam,6
+203,Gilly,Samwell Tarly,2
+204,Dickon Tarly,Samwell Tarly,2
+205,Dickon Tarly,Margaery Tyrell,2
+206,High Sparrow,Margaery Tyrell,19
+207,Jon Snow,Loras Tyrell,2
+208,Gilly,Jon Snow,3
+209,Gilly,Randyll Tarly,2
+210,Randyll Tarly,Samwell Tarly,4
+211,Randyll Tarly,Thenn Warg,2
+212,Gilly,Thenn Warg,2
+213,Gilly,Joffrey Baratheon,2
+214,Joffrey Baratheon,Margaery Tyrell,3
+215,Margaery Tyrell,Tywin Lannister,2
+216,Clarenzo,Tywin Lannister,2
+217,Bobono,Clarenzo,2
+218,Eddard Stark,Lady Crane,2
+219,Eddard Stark,Margaery Tyrell,2
+220,Jaime Lannister,Margaery Tyrell,4
+221,Loras Tyrell,Margaery Tyrell,5
+222,Loras Tyrell,Tommen Baratheon,2
+223,Robb Stark,Tommen Baratheon,2
+224,Bronn,High Sparrow,3
+225,High Sparrow,Three-Eyed Raven,2
+226,Jon Snow,Three-Eyed Raven,2
+227,Benjen Stark,Jon Snow,3
+228,Night King,Three-Eyed Raven,2
+229,Daenerys Targaryen,Night King,2
+230,Roose Bolton,Sansa Stark,1
+231,Arya Stark,Bran Stark,3
+232,Shireen Baratheon,Stannis Baratheon,4
+233,Davos Seaworth,Renly Baratheon,2
+234,Renly Baratheon,Stannis Baratheon,2
+235,Petyr Baelish,Stannis Baratheon,2
+236,Petyr Baelish,Sansa Stark,6
+237,Daenerys Targaryen,Grey Worm,2
+238,Grey Worm,Missandei,2
+239,Jorah Mormont,Missandei,2
+240,Jorah Mormont,Khal Drogo,2
+241,Khal Drogo,Septa Mordane,2
+242,Cersei Lannister,Margaery Tyrell,3
+243,High Sparrow,Lancel Lannister,2
+244,Lancel Lannister,Theon Greyjoy,2
+245,Rickon Stark,Theon Greyjoy,4
+246,Jon Snow,Theon Greyjoy,2
+247,Jon Snow,Rickon Stark,3
+248,Rickon Stark,Stannis Baratheon,2
+249,Khal Drogo,Stannis Baratheon,2

@@ -1,0 +1,122 @@
+,source,target,value
+0,Eddard Stark,Lyanna Mormont,5
+1,Jon Snow,Lyanna Mormont,1
+2,Jon Snow,Varys,6
+3,Jon Snow,Sansa Stark,11
+4,Sansa Stark,Varys,6
+5,Daenerys Targaryen,Varys,5
+6,Cersei Lannister,Varys,4
+7,Cersei Lannister,Davos Seaworth,4
+8,Arya Stark,Cersei Lannister,5
+9,Cersei Lannister,Daenerys Targaryen,15
+10,Daenerys Targaryen,Euron Greyjoy,4
+11,Cersei Lannister,Euron Greyjoy,4
+12,Cersei Lannister,Jaime Lannister,11
+13,Jaime Lannister,Sandor Clegane,2
+14,Gregor Clegane,Sandor Clegane,2
+15,Gregor Clegane,Jaime Lannister,2
+16,Arya Stark,Daenerys Targaryen,1
+17,Daenerys Targaryen,Sansa Stark,4
+18,Night King,Sansa Stark,4
+19,Jon Snow,Night King,4
+20,Joffrey Baratheon,Jon Snow,6
+21,Cersei Lannister,Joffrey Baratheon,2
+22,Cersei Lannister,Sansa Stark,10
+23,Bronn,Sansa Stark,2
+24,Bronn,Jaime Lannister,2
+25,Cersei Lannister,Robert Baratheon,2
+26,Euron Greyjoy,Robert Baratheon,2
+27,Daenerys Targaryen,Jon Snow,16
+28,Daenerys Targaryen,Night King,6
+29,Gendry,Jon Snow,4
+30,Jorah Mormont,Sansa Stark,2
+31,Jorah Mormont,Randyll Tarly,2
+32,Jon Snow,Randyll Tarly,2
+33,Gilly,Jon Snow,2
+34,Gilly,Little Sam,5
+35,Daenerys Targaryen,Little Sam,2
+36,Bran Stark,Daenerys Targaryen,6
+37,Bran Stark,High Septon,3
+38,High Septon,Lyanna Mormont,2
+39,Eddard Stark,Robert Baratheon,8
+40,Daenerys Targaryen,Robert Baratheon,2
+41,Euron Greyjoy,Jaime Lannister,1
+42,Bran Stark,Cersei Lannister,2
+43,Brienne of Tarth,Jaime Lannister,6
+44,Brienne of Tarth,Tyrion Lannister,4
+45,Sansa Stark,Tyrion Lannister,2
+46,Jaime Lannister,Sansa Stark,2
+47,Cersei Lannister,Tyrion Lannister,4
+48,Cersei Lannister,Jon Snow,22
+49,Bran Stark,Night King,7
+50,Bran Stark,Three-Eyed Raven,9
+51,Bran Stark,Davos Seaworth,4
+52,Daenerys Targaryen,Gilly,2
+53,Little Sam,Thenn Warg,2
+54,Gilly,Thenn Warg,2
+55,Gilly,Samwell Tarly,2
+56,Grenn,Samwell Tarly,2
+57,Davos Seaworth,Grenn,2
+58,Davos Seaworth,Jon Snow,5
+59,Jon Snow,Thoros of Myr,2
+60,Robert Baratheon,Thoros of Myr,2
+61,Arya Stark,Robert Baratheon,2
+62,Arya Stark,Gendry,6
+63,Arya Stark,Davos Seaworth,2
+64,Davos Seaworth,Jaime Lannister,4
+65,Brienne of Tarth,Davos Seaworth,4
+66,Brienne of Tarth,Lyanna Mormont,2
+67,Lyanna Mormont,Robert Baratheon,3
+68,Bran Stark,Lyanna Mormont,2
+69,Bran Stark,Samwell Tarly,2
+70,Davos Seaworth,Night King,1
+71,Bran Stark,Jorah Mormont,2
+72,Jorah Mormont,Theon Greyjoy,2
+73,Gendry,Robert Baratheon,5
+74,Eddard Stark,Gendry,2
+75,Arya Stark,Eddard Stark,4
+76,Arya Stark,Renly Baratheon,2
+77,Brienne of Tarth,Renly Baratheon,2
+78,Brienne of Tarth,Sansa Stark,2
+79,Petyr Baelish,Sansa Stark,2
+80,Petyr Baelish,Ramsay Bolton,8
+81,Gendry,Ramsay Bolton,2
+82,Gendry,Tormund Giantsbane,2
+83,Jorah Mormont,Tormund Giantsbane,2
+84,Jorah Mormont,Samwell Tarly,2
+85,Samwell Tarly,Sansa Stark,2
+86,Arya Stark,Sansa Stark,8
+87,Cersei Lannister,Yara Greyjoy,4
+88,Arya Stark,Jaime Lannister,2
+89,Arya Stark,Night King,5
+90,Bronn,Eddard Stark,2
+91,Bronn,Cersei Lannister,2
+92,Jon Snow,Tyrion Lannister,10
+93,Jon Snow,Robert Baratheon,2
+94,Robert Baratheon,Sansa Stark,2
+95,Cersei Lannister,Missandei,6
+96,Cersei Lannister,Khal Drogo,3
+97,Khal Drogo,Varys,2
+98,Daenerys Targaryen,Missandei,9
+99,Euron Greyjoy,Missandei,3
+100,Missandei,Qyburn,2
+101,Cersei Lannister,Qyburn,2
+102,Daenerys Targaryen,Grey Worm,1
+103,Cersei Lannister,Grey Worm,2
+104,Tywin Lannister,Varys,2
+105,Cersei Lannister,Tywin Lannister,2
+106,Cersei Lannister,Maester Aemon,2
+107,Maester Aemon,Sansa Stark,2
+108,Bran Stark,Tyrion Lannister,2
+109,Davos Seaworth,Tyrion Lannister,2
+110,Davos Seaworth,Sansa Stark,2
+111,Arya Stark,Grey Worm,3
+112,Eddard Stark,Grey Worm,2
+113,Archmaester Ebrose,Robert Baratheon,3
+114,Archmaester Ebrose,Khal Drogo,2
+115,Khal Drogo,Podrick Payne,2
+116,Bran Stark,Podrick Payne,2
+117,Bran Stark,Bronn,2
+118,Bronn,Davos Seaworth,2
+119,Archmaester Ebrose,Davos Seaworth,2
+120,Archmaester Ebrose,Jon Snow,2

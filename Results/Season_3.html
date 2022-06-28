@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vis-network@latest/styles/vis-network.css" type="text/css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@latest/dist/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 1500px;
+            height: 820px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "group": 0, "id": "Barristan Selmy", "label": "Barristan Selmy", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Missandei", "label": "Missandei", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Robert Baratheon", "label": "Robert Baratheon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Kraznys mo Nakloz", "label": "Kraznys mo Nakloz", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 1, "id": "Melisandre", "label": "Melisandre", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Renly Baratheon", "label": "Renly Baratheon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Eddard Stark", "label": "Eddard Stark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Varys", "label": "Varys", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Thoros of Myr", "label": "Thoros of Myr", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Grey Worm", "label": "Grey Worm", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Jorah Mormont", "label": "Jorah Mormont", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Daenerys Targaryen", "label": "Daenerys Targaryen", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Sansa Stark", "label": "Sansa Stark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 1, "id": "Selyse Florent", "label": "Selyse Florent", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 1, "id": "Stannis Baratheon", "label": "Stannis Baratheon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 1, "id": "Petyr Baelish", "label": "Petyr Baelish", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Loras Tyrell", "label": "Loras Tyrell", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Grand Maester Pycelle", "label": "Grand Maester Pycelle", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Margaery Tyrell", "label": "Margaery Tyrell", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Joffrey Baratheon", "label": "Joffrey Baratheon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 1, "id": "Davos Seaworth", "label": "Davos Seaworth", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Robb Stark", "label": "Robb Stark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Tywin Lannister", "label": "Tywin Lannister", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Theon Greyjoy", "label": "Theon Greyjoy", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Rickard Karstark", "label": "Rickard Karstark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Jaime Lannister", "label": "Jaime Lannister", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Roose Bolton", "label": "Roose Bolton", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Cersei Lannister", "label": "Cersei Lannister", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "High Septon", "label": "High Septon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Ilyn Payne", "label": "Ilyn Payne", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Tyrion Lannister", "label": "Tyrion Lannister", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Myrcella Baratheon", "label": "Myrcella Baratheon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Ros", "label": "Ros", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Sandor Clegane", "label": "Sandor Clegane", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Olenna Tyrell", "label": "Olenna Tyrell", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Shae", "label": "Shae", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 1, "id": "Podrick Payne", "label": "Podrick Payne", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Catelyn Stark", "label": "Catelyn Stark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Bronn", "label": "Bronn", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Craster", "label": "Craster", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Gilly", "label": "Gilly", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Maester Aemon", "label": "Maester Aemon", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Jon Snow", "label": "Jon Snow", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Brienne of Tarth", "label": "Brienne of Tarth", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Locke", "label": "Locke", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Qyburn", "label": "Qyburn", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Mance Rayder", "label": "Mance Rayder", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Ygritte", "label": "Ygritte", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Orell", "label": "Orell", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Tormund Giantsbane", "label": "Tormund Giantsbane", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Thenn Warg", "label": "Thenn Warg", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Qhorin Halfhand", "label": "Qhorin Halfhand", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Bran Stark", "label": "Bran Stark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Hodor", "label": "Hodor", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Osha", "label": "Osha", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Gendry", "label": "Gendry", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Beric Dondarrion", "label": "Beric Dondarrion", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 3, "id": "Gregor Clegane", "label": "Gregor Clegane", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Meryn Trant", "label": "Meryn Trant", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 0, "id": "Anguy", "label": "Anguy", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Ramsay Bolton", "label": "Ramsay Bolton", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Maester Luwin", "label": "Maester Luwin", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Jojen Reed", "label": "Jojen Reed", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Rickon Stark", "label": "Rickon Stark", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 2, "id": "Meera Reed", "label": "Meera Reed", "shape": "dot", "size": 10}, {"font": {"color": "white"}, "group": 4, "id": "Edmure Tully", "label": "Edmure Tully", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": "Barristan Selmy", "label": 1, "to": "Missandei", "value": 4, "weight": 1}, {"from": "Barristan Selmy", "label": 1, "to": "Robert Baratheon", "value": 5, "weight": 1}, {"from": "Missandei", "label": 1, "to": "Kraznys mo Nakloz", "value": 4, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Melisandre", "value": 4, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Renly Baratheon", "value": 4, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Eddard Stark", "value": 8, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Varys", "value": 3, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Thoros of Myr", "value": 9, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Grey Worm", "value": 4, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Jorah Mormont", "value": 4, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Daenerys Targaryen", "value": 3, "weight": 1}, {"from": "Robert Baratheon", "label": 1, "to": "Sansa Stark", "value": 7, "weight": 1}, {"from": "Melisandre", "label": 1, "to": "Selyse Florent", "value": 4, "weight": 1}, {"from": "Melisandre", "label": 1, "to": "Stannis Baratheon", "value": 5, "weight": 1}, {"from": "Melisandre", "label": 1, "to": "Petyr Baelish", "value": 5, "weight": 1}, {"from": "Renly Baratheon", "label": 1, "to": "Loras Tyrell", "value": 9, "weight": 1}, {"from": "Renly Baratheon", "label": 1, "to": "Grand Maester Pycelle", "value": 3, "weight": 1}, {"from": "Renly Baratheon", "label": 1, "to": "Eddard Stark", "value": 4, "weight": 1}, {"from": "Renly Baratheon", "label": 1, "to": "Margaery Tyrell", "value": 8, "weight": 1}, {"from": "Renly Baratheon", "label": 1, "to": "Sansa Stark", "value": 5, "weight": 1}, {"from": "Renly Baratheon", "label": 1, "to": "Joffrey Baratheon", "value": 3, "weight": 1}, {"from": "Davos Seaworth", "label": 1, "to": "Robb Stark", "value": 6, "weight": 1}, {"from": "Davos Seaworth", "label": 1, "to": "Stannis Baratheon", "value": 13, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Joffrey Baratheon", "value": 8, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Petyr Baelish", "value": 3, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Sansa Stark", "value": 8, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Tywin Lannister", "value": 6, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Theon Greyjoy", "value": 3, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Rickard Karstark", "value": 5, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Jaime Lannister", "value": 6, "weight": 1}, {"from": "Robb Stark", "label": 1, "to": "Roose Bolton", "value": 3, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Cersei Lannister", "value": 13, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Loras Tyrell", "value": 14, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "High Septon", "value": 4, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Margaery Tyrell", "value": 19, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Stannis Baratheon", "value": 4, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Eddard Stark", "value": 3, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Tywin Lannister", "value": 12, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Ilyn Payne", "value": 6, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Sansa Stark", "value": 16, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Tyrion Lannister", "value": 11, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Grand Maester Pycelle", "value": 4, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Myrcella Baratheon", "value": 3, "weight": 1}, {"from": "Joffrey Baratheon", "label": 1, "to": "Ros", "value": 3, "weight": 1}, {"from": "Cersei Lannister", "label": 1, "to": "Sandor Clegane", "value": 3, "weight": 1}, {"from": "Cersei Lannister", "label": 1, "to": "Loras Tyrell", "value": 8, "weight": 1}, {"from": "Loras Tyrell", "label": 1, "to": "Sansa Stark", "value": 26, "weight": 1}, {"from": "Loras Tyrell", "label": 1, "to": "Tyrion Lannister", "value": 8, "weight": 1}, {"from": "Loras Tyrell", "label": 1, "to": "Margaery Tyrell", "value": 5, "weight": 1}, {"from": "Loras Tyrell", "label": 1, "to": "Jaime Lannister", "value": 7, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Tyrion Lannister", "value": 18, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Petyr Baelish", "value": 19, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Varys", "value": 4, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Theon Greyjoy", "value": 3, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Olenna Tyrell", "value": 5, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Ros", "value": 4, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Shae", "value": 4, "weight": 1}, {"from": "Sansa Stark", "label": 1, "to": "Roose Bolton", "value": 5, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Podrick Payne", "value": 3, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Catelyn Stark", "value": 3, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Jaime Lannister", "value": 5, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Stannis Baratheon", "value": 4, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Bronn", "value": 4, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Shae", "value": 5, "weight": 1}, {"from": "Tyrion Lannister", "label": 1, "to": "Varys", "value": 4, "weight": 1}, {"from": "Craster", "label": 1, "to": "Gilly", "value": 4, "weight": 1}, {"from": "Craster", "label": 1, "to": "Maester Aemon", "value": 3, "weight": 1}, {"from": "Gilly", "label": 1, "to": "Jon Snow", "value": 4, "weight": 1}, {"from": "Podrick Payne", "label": 1, "to": "Petyr Baelish", "value": 4, "weight": 1}, {"from": "Margaery Tyrell", "label": 1, "to": "Olenna Tyrell", "value": 5, "weight": 1}, {"from": "Catelyn Stark", "label": 1, "to": "Jaime Lannister", "value": 7, "weight": 1}, {"from": "Catelyn Stark", "label": 1, "to": "Brienne of Tarth", "value": 7, "weight": 1}, {"from": "Jaime Lannister", "label": 1, "to": "Locke", "value": 8, "weight": 1}, {"from": "Jaime Lannister", "label": 1, "to": "Qyburn", "value": 7, "weight": 1}, {"from": "Jaime Lannister", "label": 1, "to": "Tywin Lannister", "value": 6, "weight": 1}, {"from": "Varys", "label": 1, "to": "Grand Maester Pycelle", "value": 3, "weight": 1}, {"from": "Eddard Stark", "label": 1, "to": "Thoros of Myr", "value": 4, "weight": 1}, {"from": "Eddard Stark", "label": 1, "to": "Jon Snow", "value": 5, "weight": 1}, {"from": "Mance Rayder", "label": 1, "to": "Ygritte", "value": 4, "weight": 1}, {"from": "Mance Rayder", "label": 1, "to": "Jon Snow", "value": 14, "weight": 1}, {"from": "Ygritte", "label": 1, "to": "Orell", "value": 4, "weight": 1}, {"from": "Ygritte", "label": 1, "to": "Jon Snow", "value": 6, "weight": 1}, {"from": "Orell", "label": 1, "to": "Tormund Giantsbane", "value": 3, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Thenn Warg", "value": 4, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Tormund Giantsbane", "value": 10, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Qhorin Halfhand", "value": 7, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Bran Stark", "value": 5, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Hodor", "value": 12, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Osha", "value": 4, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Theon Greyjoy", "value": 4, "weight": 1}, {"from": "Jon Snow", "label": 1, "to": "Gendry", "value": 4, "weight": 1}, {"from": "Qyburn", "label": 1, "to": "Tywin Lannister", "value": 4, "weight": 1}, {"from": "Tywin Lannister", "label": 1, "to": "Beric Dondarrion", "value": 4, "weight": 1}, {"from": "Tywin Lannister", "label": 1, "to": "Gregor Clegane", "value": 6, "weight": 1}, {"from": "Ilyn Payne", "label": 1, "to": "Meryn Trant", "value": 3, "weight": 1}, {"from": "Thoros of Myr", "label": 1, "to": "Anguy", "value": 3, "weight": 1}, {"from": "Grey Worm", "label": 1, "to": "Daenerys Targaryen", "value": 9, "weight": 1}, {"from": "Daenerys Targaryen", "label": 1, "to": "Shae", "value": 4, "weight": 1}, {"from": "Theon Greyjoy", "label": 1, "to": "Hodor", "value": 6, "weight": 1}, {"from": "Theon Greyjoy", "label": 1, "to": "Bran Stark", "value": 5, "weight": 1}, {"from": "Theon Greyjoy", "label": 1, "to": "Ramsay Bolton", "value": 13, "weight": 1}, {"from": "Bran Stark", "label": 1, "to": "Hodor", "value": 11, "weight": 1}, {"from": "Bran Stark", "label": 1, "to": "Ramsay Bolton", "value": 3, "weight": 1}, {"from": "Bran Stark", "label": 1, "to": "Maester Luwin", "value": 5, "weight": 1}, {"from": "Bran Stark", "label": 1, "to": "Jojen Reed", "value": 5, "weight": 1}, {"from": "Bran Stark", "label": 1, "to": "Rickon Stark", "value": 6, "weight": 1}, {"from": "Hodor", "label": 1, "to": "Rickon Stark", "value": 3, "weight": 1}, {"from": "Hodor", "label": 1, "to": "Jojen Reed", "value": 3, "weight": 1}, {"from": "Hodor", "label": 1, "to": "Osha", "value": 3, "weight": 1}, {"from": "Ramsay Bolton", "label": 1, "to": "Rickon Stark", "value": 3, "weight": 1}, {"from": "Ramsay Bolton", "label": 1, "to": "Roose Bolton", "value": 3, "weight": 1}, {"from": "Jojen Reed", "label": 1, "to": "Meera Reed", "value": 3, "weight": 1}, {"from": "Ros", "label": 1, "to": "Edmure Tully", "value": 5, "weight": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
