@@ -2,6 +2,6 @@ This project aims at analysing relations between the many characters in the popu
 
 <body>
     <div class="box">
-      <img src="https://github.com/lmw2109/GoT_network/blob/main/Results/Season_graphs/Season5_repo_template.png" alt="Season 5"/>
+      <img src="https://github.com/lmw2109/GoT_network/blob/main/Template.png" alt="Season 5"/>
     </div>
   </body>
